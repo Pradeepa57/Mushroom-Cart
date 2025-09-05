@@ -289,8 +289,8 @@ def admin_orders():
 
     return render_template("view_orders.html", orders=orders)
 
-@app.route("/home")
-def home_page():
+@app.route("/")
+def home():
     return render_template("home.html")
 
 @app.route("/logout")
